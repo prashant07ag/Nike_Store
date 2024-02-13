@@ -1,5 +1,5 @@
 import Hero from './sections/Hero';
-import CustomerReview from './sections/CustomerReview';
+import CustomerReviews from './sections/CustomerReviews';
 import Nav from './sections/Nav';
 import Footer from './sections/Footer';
 import Services from './sections/Services';
@@ -27,7 +27,7 @@ export default function App() {
         <SpecialOffers></SpecialOffers>
       </section>
       <section className="padding bg-pale-blue">
-        <CustomerReview></CustomerReview>
+        <CustomerReviews></CustomerReviews>
       </section>
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe></Subscribe>
